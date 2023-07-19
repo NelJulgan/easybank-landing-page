@@ -132,6 +132,10 @@
 
   .blog {
     padding: 10rem 8rem;
+    .article-section-title {
+      font-size: 4.4rem;
+      font-weight: 400;
+    }
 
     .article-cards {
       grid-template-columns: repeat(4, 1fr);
