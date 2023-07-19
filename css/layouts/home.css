@@ -3,7 +3,8 @@
   padding-bottom: 6rem;
 
   .home-img {
-    background: resolve('bg-intro-mobile.svg') no-repeat center center/cover;
+    background: url('/assets/images/bg-intro-mobile.svg') no-repeat center
+      center/cover;
     padding: 0 1.5rem;
     margin-bottom: 4rem;
 

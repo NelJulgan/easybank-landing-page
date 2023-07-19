@@ -7,17 +7,15 @@ import postcssAssets from 'postcss-assets';
 
 export default defineConfig({
   css: {
-    postcss: {
-      plugins: [
-        postcssNesting,
-        postcssPresetEnv,
-        preCss,
-        autoprefixer,
-        postcssAssets({
-          loadPaths: ['assets/images**'],
-        }),
-      ],
-    },
+    postcss: [
+      postcssNesting,
+      postcssPresetEnv,
+      preCss,
+      autoprefixer,
+      postcssAssets({
+        loadPaths: ['assets/images**'],
+      }),
+    ],
   },
   base: '/easybank-landing-page/',
 });
