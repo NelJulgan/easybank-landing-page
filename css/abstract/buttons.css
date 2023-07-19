@@ -1,0 +1,22 @@
+button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  margin: auto;
+  transition: background 800ms ease-in-out;
+
+  &:hover {
+    background: linear-gradient(90deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  }
+}

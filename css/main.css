@@ -1,0 +1,10 @@
+@import './abstract/index.css';
+@import './layouts/index.css';
+
+body {
+  font-family: $mainfont;
+}
+
+main {
+  overflow: hidden;
+}
